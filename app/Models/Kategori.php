@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Kategori extends Model
 {
     use HasFactory;
-    use HasFactory;
     //memberikan akses data apa saja yang bisa dilihat
     protected $visible = ['id','kd_kategori','nama_kategori'];
     //memberikan akses data apa saja yang bisa di isi

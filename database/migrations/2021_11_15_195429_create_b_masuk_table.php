@@ -13,7 +13,7 @@ class CreateBMasukTable extends Migration
      */
     public function up()
     {
-        Schema::create('b_masuk', function (Blueprint $table) {
+        Schema::create('b_masuks', function (Blueprint $table) {
             $table->id();
             $table->integer('kode_bm');
             $table->bigInteger('barang_id')->unsigned();
@@ -37,6 +37,6 @@ class CreateBMasukTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('b_masuk');
+        Schema::dropIfExists('b_masuks');
     }
 }

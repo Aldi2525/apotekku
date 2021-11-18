@@ -6,7 +6,8 @@ use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\BarangController;
-
+use App\Http\Controllers\BMasukController;
+use App\Http\Controllers\BKeluarController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,3 +50,6 @@ Route::resource('author', AuthorController::class);
 Route::resource('book', BookController::class);
 Route::resource('kategori', KategoriController::class);
 Route::resource('barang', BarangController::class);
+Route::resource('bmasuk', BMasukController::class);
+Route::resource('bkeluar', BKeluarController::class);
+

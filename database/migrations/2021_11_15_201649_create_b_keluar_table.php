@@ -13,7 +13,7 @@ class CreateBKeluarTable extends Migration
      */
     public function up()
     {
-        Schema::create('b_keluar', function (Blueprint $table) {
+        Schema::create('b_keluars', function (Blueprint $table) {
             $table->id();
             $table->integer('jumlah');
             $table->integer('kode_bm');
